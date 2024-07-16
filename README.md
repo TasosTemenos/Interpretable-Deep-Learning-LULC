@@ -1,6 +1,6 @@
-# EuroSat Dataset Analysis
+# Interpretable Deep Learning Framework for Land Use and Land Cover Classification in Remote Sensing Using SHAP
 
-This repository contains three Jupyter notebooks for analyzing the EuroSat dataset with different focuses: comprehensive analysis, remote sensing index analysis, and Near-Infrared (NRG) analysis.
+This repository contains three Jupyter notebooks for analyzing the EuroSat dataset with different focuses: comprehensive analysis, remote sensing index analysis, and Near-Infrared (NRG) analysis. Results from the code have been published in the following paper: [Interpretable Deep Learning Framework for Land Use and Land Cover Classification in Remote Sensing Using SHAP](https://doi.org/10.1109/LGRS.2023.3251652).
 
 ## Notebooks
 

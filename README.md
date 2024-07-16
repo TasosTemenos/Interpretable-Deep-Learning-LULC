@@ -2,6 +2,13 @@
 
 This repository contains three Jupyter notebooks for analyzing the EuroSat dataset with different focuses: comprehensive analysis, remote sensing index analysis, and Near-Infrared (NRG) analysis. Results from the code have been published in the following paper: [Interpretable Deep Learning Framework for Land Use and Land Cover Classification in Remote Sensing Using SHAP](https://doi.org/10.1109/LGRS.2023.3251652).
 
+
+## Dataset
+
+The EuroSat dataset is used in these notebooks. It is a dataset based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 different classes with a total of 27,000 labeled and geo-referenced images.
+
+For more information, visit the [EuroSat website](https://github.com/phelber/EuroSAT).
+
 ## Notebooks
 
 ### 1. EuroSat_v3_ALL.ipynb
@@ -42,6 +49,7 @@ To run these notebooks, you need to install the required libraries. You can do t
 
 ```bash
 pip install tensorflow_addons shap
+```
 
 ## Cite
 
@@ -55,4 +63,5 @@ pip install tensorflow_addons shap
   pages={1-5},
   keywords={Remote sensing;Convolutional neural networks;Correlation;Additives;Deep learning;Crops;Standards;Convolutional neural network (CNN);EuroSAT;explainable AI (XAI);land cover;land use;remote sensing;Shapley additive explanation (SHAP)},
   doi={10.1109/LGRS.2023.3251652}}
+
 

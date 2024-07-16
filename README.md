@@ -11,6 +11,9 @@ This repository contains three Jupyter notebooks for analyzing the EuroSat datas
   1. Installation of `tensorflow_addons` and `shap`.
   2. Loading the entire EuroSat dataset using TensorFlow Datasets (TFDS).
   3. Extracting class names and the number of classes.
+  4. Model training
+  5. Model evaluation
+  6. SHAP XAI visual results
 
 ### 2. EuroSat_v3_RS_Index.ipynb
 **Title**: EuroSat Dataset - Remote Sensing Index Analysis
@@ -19,6 +22,9 @@ This repository contains three Jupyter notebooks for analyzing the EuroSat datas
   1. Installation of `tensorflow_addons` and `shap`.
   2. Loading the EuroSat dataset using TensorFlow Datasets (TFDS), preparing it for remote sensing index analysis.
   3. Extracting class names and the number of classes.
+  4. Model training
+  5. Model evaluation
+  6. SHAP XAI visual results
 
 ### 3. EuroSat_v3_NRG.ipynb
 **Title**: EuroSat Dataset - Near-Infrared (NRG) Analysis
@@ -27,12 +33,17 @@ This repository contains three Jupyter notebooks for analyzing the EuroSat datas
   1. Installation of `tensorflow_addons` and `shap`.
   2. Loading the EuroSat dataset using TensorFlow Datasets (TFDS), preparing it for NRG analysis.
   3. Extracting class names and the number of classes.
+  4. Model training
+  5. Model evaluation
+  6. SHAP XAI visual results
 
 ## Installation
 To run these notebooks, you need to install the required libraries. You can do this by running the following commands:
 
 ```bash
 pip install tensorflow_addons shap
+
+## Cite
 
 @ARTICLE{10057399,
   author={Temenos, Anastasios and Temenos, Nikos and Kaselimi, Maria and Doulamis, Anastasios and Doulamis, Nikolaos},
